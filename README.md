@@ -40,3 +40,6 @@
 - cd dm-studio
 - npm start
 - npm test 
+
+## eslint
+- npm run lint
