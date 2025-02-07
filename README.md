@@ -27,10 +27,15 @@
 8. Admin page to upload media and manage Services, Sales pitch, Carosole Content, Service sample contents etc.
 
 
-commit msg style -
-      infra(DMS-0002): (Setup changes)
-	  build(DMS-0002): (Buld path/location etc)
-	  test(DMS-0002): (unit test/integration test push)
-	  feat(DMS-0002): ReactSetup (feature push)
-	  fix(DMS-0002): ReactSetup(bug fix push)
-	  ci(DMS-0002): (continous intigration)
+### commit msg style -
+      - infra(DMS-0002): (Setup changes)
+	  - build(DMS-0002): (Buld path/location etc)
+	  - test(DMS-0002): (unit test/integration test push)
+	  - feat(DMS-0002): ReactSetup (feature push)
+	  - fix(DMS-0002): ReactSetup(bug fix push)
+	  - ci(DMS-0002): (continous intigration)
+
+### Needed Command
+  - npm run dev (run the project)
+  - npm cypress open (to open the cypress)
+  - npm run cy:open (to open cypress into your currunt open directery)
