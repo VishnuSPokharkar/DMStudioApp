@@ -26,3 +26,11 @@
 7. Service Order page - User details, Date range, city type requirements
 8. Admin page to upload media and manage Services, Sales pitch, Carosole Content, Service sample contents etc.
 
+
+commit msg style -
+      infra(DMS-0002): (Setup changes)
+	  build(DMS-0002): (Buld path/location etc)
+	  test(DMS-0002): (unit test/integration test push)
+	  feat(DMS-0002): ReactSetup (feature push)
+	  fix(DMS-0002): ReactSetup(bug fix push)
+	  ci(DMS-0002): (continous intigration)
