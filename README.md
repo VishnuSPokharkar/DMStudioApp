@@ -35,11 +35,28 @@
 # Installation Steps
 
 ## CRA
+
 - npm config set legacy-peer-deps true
 - npx create-react-app dm-studio --template typescript
 - cd dm-studio
 - npm start
-- npm test 
+- npm test
 
 ## eslint
+
 - npm run lint
+
+## Cucumber with Playwrite
+
+[ref:https://bugbug.io/blog/testing-frameworks/playwright-cheat-sheet/]
+
+[ref: https://www.browserstack.com/guide/playwright-cucumber]
+
+- npm init playwright@latest
+- npm install --save-dev @cucumber/cucumber ts-node typescript
+
+### Run Cucumber
+
+- Configured in package.json
+  "test:cucumber": "cucumber-js --require-module ts-node/register"
+- npm run test:cucumber
