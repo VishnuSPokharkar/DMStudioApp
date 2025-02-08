@@ -1,5 +1,13 @@
 # DMStudioApp
 
+## Pull/Merge Request Merging Guidelines
+
+- npm run lint - No warning or Errors
+- npm run test:ci - All Tests should pass and coverage should be 100%
+- test:cucumber - All tests should pass
+- No console.log in code
+- No Commented Code
+
 ## Photography Studio Application
 
 ### User Story
@@ -41,6 +49,7 @@
 - cd dm-studio
 - npm start
 - npm test
+- npm test:ci
 
 ## eslint
 
@@ -60,3 +69,20 @@
 - Configured in package.json
   "test:cucumber": "cucumber-js --require-module ts-node/register"
 - npm run test:cucumber
+
+## Behavior Driven Development (BDD)
+
+1. Screnario story (Product owner)
+2. Scenario Steps (User Journey) (BA/Product manager)
+3. Scenario in Gherkin (BA/Product manager)
+4. feature (tech)
+5. step_definition code (tests will fail) (tech)
+6. feature production Code (tech)
+7. Code and test Refactor to pass the tests (tech)
+
+# Test Driven Development (TDD by tech)
+
+1. Unit tests (to fail)
+2. Minimum code to pass the test
+3. refactor code or test if required
+4. repeat steps 1-3

@@ -11,6 +11,9 @@
 # production
 /build
 
+# e2e Test files
+/e2e_results
+
 # misc
 .DS_Store
 .env.local
