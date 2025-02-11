@@ -8,6 +8,7 @@
 - No console.log in code
 - No Commented Code
 
+
 ## Photography Studio Application
 
 ### User Story
@@ -50,6 +51,12 @@
 - npm start
 - npm test
 - npm test:ci
+
+## Bootstrap 
+ - npm install -D typed-scss-modules
+ -  npx typed-scss-modules src
+## React Componant lib
+ -  npm i @material-tailwind/react  (tailwind)
 
 ## eslint
 
